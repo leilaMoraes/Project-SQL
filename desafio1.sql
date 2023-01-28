@@ -112,20 +112,20 @@ DROP DATABASE IF EXISTS SpotifyClone;
   
   INSERT INTO SpotifyClone.following_artists (user_id, artist_id)
   VALUES
-    (1, 5),
-    (2, 4),
-    (4, 1),
+    (1, 1),
+    (1, 2),
+    (1, 3),
+    (2, 1),
+    (2, 3),
+    (3, 2),
+    (4, 4),
+    (5, 5),
     (5, 6),
-    (5, 1),
+    (6, 6),
     (6, 1),
-    (6, 2),
-    (7, 3),
-    (8, 5),
-    (9, 4),
-    (9, 6),
-    (10, 4),
-    (10, 5),
-    (10, 6);
+    (7, 6),
+    (9, 3),
+    (10, 2);
   
   INSERT INTO SpotifyClone.play_history (user_id, songs_id, reproduction_date)
   VALUES
